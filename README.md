@@ -1,8 +1,13 @@
-SimpleOrm
+Simple ORM
 =========
 
-SimpleOrm is an object-relational mapper for PHP & MySQL (using mysqli). It
+Simple ORM is an object-relational mapper for PHP & MySQL (using mysqli). It
 provides a simple way to create, retrieve, update & delete records.
+
+This is not intended for large scale projects as it has extra database interaction than necessary. I would suggest [Doctrine](http://www.doctrine-project.org/) for such things.
+
+Simple ORM is a few years old but it has been upgraded over time, therefore **PHP 5.3** is a requirement.
+
 
 Configuration
 --------------
@@ -15,7 +20,7 @@ To utilise this tool you need to do a few things:
 
 For example:
 
-    // Include the SimpleOrm class
+    // Include the Simple ORM class
     include 'SimpleOrm.class.php';
     
     // Connect to the database using mysqli
@@ -24,7 +29,7 @@ For example:
     if ($conn->connect_error)
       die(sprintf('Unable to connect to the database. %s', $conn->connect_error));
     
-    // Tell SimpleOrm to use the connection you just created.
+    // Tell Simple ORM to use the connection you just created.
     SimpleOrm::useConnection($conn, 'database');
 
 
