@@ -1,0 +1,11 @@
+{
+    "name": "noetix/simple-orm",
+    "description": "A simple PHP class to access your MySQL records.",
+    "keywords": ["orm", "mysql", "database"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Alex Joyce",
+        "email": "im@alex-joyce.com"
+    }],
+    "require": {}
+}
