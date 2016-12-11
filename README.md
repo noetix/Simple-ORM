@@ -124,6 +124,7 @@ You can start a new instance & save the object or you can feed it an array.
 or
 
     $foo = new Foo(array('title'=>'hi!'));
+    $foo->save();
 
 
 Updating
