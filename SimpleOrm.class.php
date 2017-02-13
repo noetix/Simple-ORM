@@ -1,7 +1,6 @@
 <?php
 
 /**
- * Simple ORM base class.
  * 
  * @abstract
  * @package    SimpleOrm
